@@ -19,8 +19,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
 
     <!-- Slider
     ================================================== -->
@@ -29,7 +29,7 @@
 
     <!-- Stylesheet
     ================================================== -->
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:900|Asap' rel='stylesheet' type='text/css'>
@@ -45,17 +45,119 @@
   </head>
   <body>
   
+    <header id="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Golam Rabbani</h1>
+                <h4>Just a personal blog</h4>
+            </div>
+        </div>
+    </header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Golam Rabbani"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
 
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Blog</a></li>
+            <li><a href="../navbar-static-top/">Learn</a></li>
+            <li class="active"><a href="./">Resources <span class="sr-only">(current)</span></a></li>
+            <li><a href="../navbar-static-top/">About me</a></li>
+            <li><a href="../navbar-static-top/">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section id="main-area">
+        <div class="container-fluid">
+            <aside id="sidebar" class="col-md-3">
+                <div class="single-side-widget">
+                    <h2>Twitter</h2>
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/knight3rrant" data-widget-id="635775497985650688">Tweets by @knight3rrant</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
+                </div>
+                
+            </aside><!-- End of #sidebar-->
+            <div id="content" class="col-md-7 col-md-offset-1" >
+                <article>
+                    <time class="gr-time">January 11,2016</time>
+                    <h2>The headings for your homepage</h2>
+                    <span class="posted-on">Posted by <b>Golam Rabbani</b> | Category <b>WordPress,Ecommerce</b></span>
+                    <p>What the heck is going on guys! (copy the first line from Bucky 😉 )
 
+So Today I’m gonna share something cool that I’ve learnt yesterday. It’s all about Computer Networking. When I first go to my university I was wondering  how this whole university network system even works!!! I have now idea about those things I saw in the varsity.</p>
+                </article>
+                <article>
+                    <time class="gr-time">January 11,2016</time>
+                    <h2>The headings for your homepage</h2>
+                    <span class="posted-on">Posted by <b>Golam Rabbani</b> | Category <b>WordPress,Ecommerce</b></span>
+                    <p>So Today I’m gonna share something cool that I’ve learnt yesterday. It’s all about Computer Networking. When I first go to my university I was wondering  how this whole university network system even works!!! I have now idea about those things I saw in the varsity.</p>
+                </article>
+                <article>
+                    <time class="gr-time">January 11,2016</time>
+                    <h2>The headings for your homepage</h2>
+                    <span class="posted-on">Posted by <b>Golam Rabbani</b> | Category <b>WordPress,Ecommerce</b></span>
+                    <p>So Today I’m gonna share something cool that I’ve learnt yesterday. It’s all about Computer Networking. When I first go to my university I was wondering  how this whole university network system even works!!! I have now idea about those things I saw in the varsity.</p>
+                </article>
+                <article>
+                    <time class="gr-time">January 11,2016</time>
+                    <h2>The headings for your homepage</h2>
+                    <span class="posted-on">Posted by <b>Golam Rabbani</b> | Category <b>WordPress,Ecommerce</b></span>
+                    <p>So Today I’m gonna share something cool that I’ve learnt yesterday. It’s all about Computer Networking. When I first go to my university I was wondering  how this whole university network system even works!!! I have now idea about those things I saw in the varsity.</p>
+                </article>
+                <div class="pagination">
+                    <a href="#">Previous</a>
+                    <a href="#">Next</a>
+                </div>
+            </div> <!-- End of .content-->
+        </div><!-- End of .container-fluid -->
+    </section><!-- End of #main-area-->
+    
+    <section id="gr-learn-area">
+        <div class="container">
+            <div class="col-md-7 col-md-offset-2">
+                <div class="learn-content col-md-6">
+                    <img src="img/learn-illustration.png" alt="">
+                </div>
+                <div class="learn-content col-md-6">
+                    <h3>Learning to code ain't hard that you might be thinkin'</h3>
+                    <p>Get started today with my cool guideline and discover how it easy to learn anything that you like. Oh btw if you don't like or feeling fun then first try to know how you'll find it fun to learn.</p>
+                    <a href="#" class="btn btn-transparent">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <img src="img/logo.png" alt="">
+        <span class="copyright">2016 | Made with Golam Rabbani.</span>
+        <a href="#">Privacy</a> <a href="#">Github</a>
+        <span class="social-media">
+            <ul>
+                <li><a href="">F</a></li>
+                <li><a href="">F</a></li>
+                <li><a href="">F</a></li>
+                <li><a href="">F</a></li>
+            </ul>
+        </span>
 
-   
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
