@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+
+body, html{
+	font-family: 'Asap', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #455a64;
+}
+.container {max-width: 980px}
+h1{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+h1 strong{
+	font-weight: 900;
+}
+h2{
+	font-size: 32px;
+	text-transform: uppercase;
+	line-height: 27px;
+	margin:  0;
+	font-family: 'Raleway', sans-serif;
+}
+h3{
+font-size: 25px;
+font-weight: 900;
+font-family: 'Asap', sans-serif;
+}
+h4{
+
+	font-family: 'Asap', sans-serif;
+	font-size: 18px;
+}
+h5{
+
+	font-weight: 700;
+	line-height: 20px;
+}
+p{
+	font-family: 'Asap', sans-serif;
+}
+p.intro{
+	font-size: 16px;
+	margin: 12px 0 0;
+	line-height: 24px;
+	font-family: 'Asap', sans-serif;
+}
+a{ color: #FCAC45;}
+a:hover,
+a:focus{
+	text-decoration: none;
+	color: #FCAC45;
+}
+
+hr{
+	border-color: #F65B59;
+	border-width: 1px;
+	
+	float: none;
+	clear: both;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+ul, ol{
+	padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
+}
+/* Navigation */
