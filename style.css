@@ -70,7 +70,9 @@ a:focus{
 	color: #525252;
 }
 
-
+.customisable-border {
+  border: none;
+}
 hr {
   border-color: rgba(178, 182, 185, 0.25); 
 	float: none;
@@ -124,6 +126,9 @@ ul, ol{
 }
 
 /* Navigation */
+.navbar, .navbar.navbar-default {
+  background: #00B2D9;
+}
  .navbar-header .navbar-brand img {
 	width: 200px;
 }
@@ -137,11 +142,35 @@ ul, ol{
 }
 
 /* Sidebar */
-
 #sidebar {
-	max-width: ;
+  max-width: 320px;
+  float: right;
+}
+#sidebar .single-side-widget {
+	margin-bottom: 50px;
+  border-top: 4px solid #00B2D9;
+}
+#sidebar 
+  .widget-title {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 1.3125;
+    margin: 1em 0 1em;
+    text-transform: uppercase;
 }
 
+.single-side-widget ul li {
+  list-style-type: none;
+}
+#sidebar .single-side-widget li a {
+color: #0E0F14;
+}
+#sidebar .single-side-widget li a:hover {
+  border-bottom: 1px solid #CFCFD0;
+    color: #000;
+}
 /* Article */
  #content section {
  	margin-bottom: 60px;
@@ -250,6 +279,10 @@ ul, ol{
     background-color: #fff;
     display: inline-block;
     font-weight: bold;
+ }
+ #content .gr-pagination .box:hover {
+  border-color: #0E0F14;
+  color: #0E0F14
  }
    #content .gr-pagination .page-number:before {
     -webkit-transition: all 0.2s ease;
